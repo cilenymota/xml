@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="textbook.xsl" type="text/xsl"?>
+<textBookList>
+   <book>
+      <title>Software Engineering: A Practitioner’s Approach</title>
+      <authorName>Rogers S.</authorName>
+      <authorLastName>Pressman</authorLastName>
+      <publisher>McGraw-Hill</publisher>
+      <website>www.McGraw-Hill.com</website>
+      <year>2005</year>
+      <isbn>978-0-07-337597-7</isbn>
+      <edition>7th Edition</edition>
+      <covertype>Hardcover</covertype>
+   </book>
+   <book>
+      <title>Computer Networking</title>
+      <authorName>James F.</authorName>
+      <authorLastName>Kurose</authorLastName>
+      <publisher>Pearson</publisher>
+      <website>www.pearson.com</website>
+      <year>2021</year>
+      <isbn>1-202-405-46-5</isbn>
+      <edition>8th Edition</edition>
+      <covertype>Hardcover</covertype>
+   </book>
+</textBookList>
+

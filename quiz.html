@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   
+</head>
+  
+
+<body class="grid-container">
+  
+    <div id="container">
+<header class="header">
+    <h1 class="title">How much do you know about JavaScript?</br></h1>
+</header > 
+
+<nav class="navbar">
+    <a class="aboutBtn" href="index.html" >Home</a>
+    <a class="eduBtn" href="education.html">Education</a>
+    <a class="expBtn" href="experience.html">Experience</a> 
+    <a class="quizBtn" href="quiz.html">Quiz</a>   
+    <a class="Animation" href="animation.html">Animation</a>  
+    <a class="xml" href="textbooks.xml">XML</a>  
+</nav> 
+
+<div  class="container"> 
+   
+ <aside class="sidebarL"> </aside>
+
+<section class="section"> 
+<div id="resultado"></div>
+<form class="quizForm" onsubmit="return result()"></form>
+
+<h3 class = "intructions">Choose the correct answer:  </h3>       
+
+    <h4>1. JavaScript is standardized at: </h4></br>
+
+    <input type="radio" name="p1"  value="a">a) HTML </br>    
+    <input type="radio" name="p1"  value="b" id="correct1">b) ECMA International</br>   
+    <input type="radio" name="p1"  value="c">c) World Wide Web</br>   
+    <input type="radio" name="p1"  value="d">d) HTTPS </br></br>    
+
+
+    <h4>2.The primarily used for JavaScripts is: </h4></br>   
+    <input type="radio" name="p2"  value="a" id="correct2">a) Add functionality to you pages</br>   
+    <input type="radio" name="p2"  value="b">b) Add colors to your pages</br>   
+    <input type="radio" name="p2"  value="c">c) Add tables to your pages</br>   
+    <input type="radio" name="p2"  value="d">d) Add different types of letters  </br>   </br>  
+
+
+    <h4>3.	JavaScript was developed by: </h4></br>   
+    <input type="radio" name="p3"  value="a">a) Bill Gates</br>   
+    <input type="radio" name="p3"  value="b">b) Steve Jobs</br>   
+    <input type="radio" name="p3"  value="c">c) Mark Zuckerberg</br>   
+    <input type="radio" name="p3"  value="d" id="correct3">d) Brendan Eich  </br>   </br>  
+
+
+    <h4>4.	JavaScript was developed in: </h4></br>   
+    <input type="radio" name="p4"  value="a">a) 2000</br>   
+    <input type="radio" name="p4"  value="b">b) 1984s</br>   
+    <input type="radio" name="p4"  value="c">c) 1994</br>   
+    <input type="radio" name="p4"  value="d" id="correct4">d) 1995  </br>   </br>  
+
+
+    <h4>5.The first name of JavaScript was:</h4></br>   
+    <input type="radio" name="p5"  value="a">a) Netscape</br>   
+    <input type="radio" name="p5"  value="b" id="correct5">b) LiveScript</br>   
+    <input type="radio" name="p5"  value="c">c) Java</br>   
+    <input type="radio" name="p5"  value="d">d) Browser  </br>   </br>  
+
+    
+    <h4>6.	To run JavaScript is necessary a:</h4></br>   
+    <input type="radio" name="p6"  value="a">a) Search Engine</br>   
+    <input type="radio" name="p6"  value="b" id="correct6">b) Browser</br>   
+    <input type="radio" name="p6"  value="c">c) Database</br>   
+    <input type="radio" name="p6"  value="d">d) Command prompt </br>   </br>  
+
+    <h4>7.	JavaScript is primarily used in the field of:</h4></br>   
+    <input type="radio" name="p7"  value="a" >a) Engineering</br>   
+    <input type="radio" name="p7"  value="b">b) Business Logic</br>   
+    <input type="radio" name="p7"  value="c" id="correct7">c) Web base develop</br>   
+    <input type="radio" name="p7"  value="d">d) Database </br>   </br>  
+
+
+    <h4>8.	An example of an event in JavaScript is:</h4></br>   
+    <input type="radio" name="p8"  value="a" >a) Security</br>   
+    <input type="radio" name="p8"  value="b">b) Add two numbers</br>   
+    <input type="radio" name="p8"  value="c" id="correct8">c) Mouse hover</br>   
+    <input type="radio" name="p8"  value="d">d) Testing</br>   </br>  
+
+    <h4>9.	JavaScript and Java are the same:</h4></br>   
+    <input type="radio" name="p9"  value="a" id="correct9">a) No</br>   
+    <input type="radio" name="p9"  value="b">b) Yes</br>   
+    <input type="radio" name="p9"  value="c" >c) Sometimes</br>   
+    <input type="radio" name="p9"  value="d">d) Always</br>   </br>  
+
+    <h4>10.	What is NOT a feature of JavaScript:</h4></br>   
+    <input type="radio" name="p10"  value="a" >a) Object-oriented script language</br>   
+    <input type="radio" name="p10"  value="b">b) Statement looping</br>   
+    <input type="radio" name="p10"  value="c" >c) Handling events</br>   
+    <input type="radio" name="p10"  value="d"id="correct10">d) Artificial inteligent</br>   </br>  
+
+    <h4>11.	What is NOT an example of JavaScript library:</h4></br>   
+    <input type="radio" name="p11"  value="a" id="correct11">a) Agile</br>   
+    <input type="radio" name="p11"  value="b">b) Grunt</br>   
+    <input type="radio" name="p11"  value="c" >c) jQuery</br>   
+    <input type="radio" name="p11"  value="d">d) DOM</br>   </br>  
+
+    
+    <input type="submit" value="SUBMIT" onclick="return result()">
+    </form>   
+
+
+<aside class="sidebarR"></aside> 
+
+</section>
+
+  </div>                                                                      
+ <footer class="footer">
+    <h2>"The sky is no the limit, is just the beginning..."</h2>
+</footer> 
+
+</body>
+
+</html>
